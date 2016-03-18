@@ -1,0 +1,146 @@
+/* public */
+section{width:100%; overflow: hidden;}
+.container{margin:0 auto; width:1140px; height:100%;z-index:0;}
+h2 {font-size:46px; font-weight:normal;}
+*{margin:0;padding:0;font-family:"Microsoft YaHei"}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+img{border:none;}
+li{list-style:none;}
+a{text-decoration:none; color:white;}
+
+/* first page */
+#block-firstPage{height:1000px; width:100%; background-color:#22B573; font-size: 100px; color:white; text-align: center;}
+.blockTitle{display:none; position:absolute; margin:0 auto; width:100%;}
+#fstPage-down{position:absolute; bottom:16px; height:90px; width:100%;}
+#fstPage-down a{display:block; height:90px; width:60px; margin:0 auto; background:url(../img/down.png) no-repeat center}
+
+/* nav */
+#block-nav {position:relative; top:0; height:52px; background-color:#42474B; color:white; }
+#block-nav a{padding:0 25px; font-size:14px; line-height:52px; cursor:pointer; z-index: 1; color:white;}
+#block-nav a:hover{color:#999;}
+#logo{display: inline-block;}
+.fl{float:left;}
+.fr{float:right;}
+
+/* block-intro */
+#block-intro {height:auto; width:100%; background-color:#1889C5; padding:60px 0 100px;}
+#intro-icon  {height:300px; width:70%; line-height:300px;margin: auto;}
+.link        {display:inline-block; height:100px; width:100px; text-indent: -9999em;-webkit-transition:0.4s linear;transition:0.4s ease-in;
+	}
+.link:hover  {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+#link-github   {background:url(../img/github.png) no-repeat center; margin-left:76px;}
+#myPhoto       {height:270px; width:220px; display:inline-block; margin:0 0 0 78px;
+	box-shadow:0 15px 8px -9px #555; border: 2px solid #ccc;
+	border-radius:200px 200px 200px 200px /260px 260px 260px 260px;}
+#link-email    {background:url(../img/email.png) no-repeat center; margin-left:76px;}
+#intro-text    {display:inline-block; margin:150px 0 0 130px; color:white;}
+#intro-text li {height:30px;}
+#intro-text ul li a {display:inline-block;}
+#intro-text ul li a:hover {border-bottom:2px solid #fff;color: red;}
+#intro-text ul li span {display:inline-block; text-align:right; width:70px;}
+#intro-text div {display:inline-block; width:550px; margin-left:120px;}
+#intro-text>div>p {text-indent: 2em;margin: 6px;}
+
+/* block-skill */
+#block-skill {height:auto; width:100%; margin:auto;
+	background-color:#9C58B6; color:#FFFFFF; padding-bottom:60px; }
+#block-skill .skill-title {width:300px; margin:0 auto; padding-top:100px; text-align:center;}
+#skill-tab {
+	height: 30px;width: 500px;position:relative;margin:0 auto;
+}
+#skill-tab ul {
+	margin: 40px 0;
+}
+#skill-tab ul li{
+	display: inline-block;margin-left: 100px;
+	font-size:20px;
+}
+#skill-tab ul li a:hover{
+	color: #aaa;
+}
+#skill-list{
+	width: 840px;height: 240px;
+    overflow: hidden;
+    margin: 20px auto;
+	position: relative;
+}
+#skill-list .contain{
+	position: absolute;
+    left: 0; top: 0;
+    width: 4000px;
+}
+#skill-list .contain li{
+	float: left;
+    height: 240px;
+    overflow: hidden;
+    padding: 0 5px;
+    position: relative;
+    width: 160px;
+}
+#skill-list .contain span{
+
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+
+
+/* block-workEXP */
+#block-workEXP {height:auto; width:100%; background-color:#26B1B6; color:#e7e7e7;padding:160px 0}
+#block-workEXP .work-title {width:300px; margin:0 auto; text-align:center;}
+#block-workEXP .workEXP-main {height:auto; width:auto; margin:100px 0 0 60px;}
+#block-workEXP .timebox {margin-left:194px; font-size:29px;}
+#block-workEXP .timebox li{display:inline-block; margin-top:5px;}
+#block-workEXP .time1 {margin-left:80px}
+#block-workEXP .timeline {height:27px; width:868px; margin-left:100px; background:url(../img/timeline.png) no-repeat center;}
+#block-workEXP .workbox  {margin-left:194px;}
+#block-workEXP .workbox li{display:inline-block; width:340px; vertical-align: top;}
+#block-workEXP .workbox li label{display:block;}
+#block-workEXP .workbox .work-place {font-size:26px; font-weight:bold}
+#block-workEXP .workbox .work-position {font-size:20px;}
+#block-workEXP .workbox .work-do {margin-top:10px; font-size:16px;}
+
+/* block-prjEXP */
+#block-prjEXP {padding:50px 0 200px; width:100%; background-color:#129DE7; color:#FFFFFF;}
+#block-prjEXP .prjEXP-title {width:300px; margin:30px auto; text-align:center;}
+/* work */
+
+.webDesign{
+	width: 600px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.webDesign ul li{
+	width: 100px;
+	height: 100px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float: left;
+	text-align: center;
+	border-radius: 50px;
+	background: #666;
+	opacity: 0.3;
+}
+.webDesign ul li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50px;
+}
+
+.webDesign ul li  span{
+	line-height: 100px;
+	font-size: 20px;
+}
+
+/* block-wantMore */
+#block-wantMore {width:100%; background-color:#ED6461; color:#fff;}
+#block-wantMore p.title{
+	display: block;position: relative;margin: 0 auto;width: 100%;text-align: center;font-size: 3em;
+}
+#block-wantMore>p.contack{display:block; position:relative; margin:50px auto; width:100%; font-size: 2em;
+	text-align: center;
+	}
